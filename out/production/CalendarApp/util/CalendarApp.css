@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+.titleLabel {
+    
+    -fx-padding: 0,0,0,5;
+    -fx-min-width: 90%;
+}
+.calendarId{
+    -fx-max-width: 1;
+}
+
+.weekLabelvBox {
+    -fx-background-color: #DFB951;
+}
+
+.calendarApptSelected {
+    -fx-border-color: white;
+}
+.calendarApptReleased {
+    -fx-border-color: none;
+}
+
+.apptStaffMeeting {
+    -fx-background-color: #FFC0CB;
+}
+
+.apptSalesSupport {
+    -fx-background-color: #DAA520;
+}
+
+.apptProspecting {
+    -fx-background-color: #20B2AA;
+}
+
+.apptTraining {
+    -fx-background-color: #9370DB;
+}
+
+.monthCalendarGrid {
+    -fx-background-color: #87CEFA;
+    -fx-background-insets: 1,1,1,1;
+    -fx-padding: 5;
+}
+#userMonthReportTableView .table-column{
+  -fx-alignment: CENTER;
+}
+
+/*
+https://www.tutorialspoint.com/javafx/javafx_css.htm
+https://www.quackit.com/css/css_color_codes.cfm
+*/
