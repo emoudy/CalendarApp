@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e6f691c-4db3-454b-b38b-e72433441032" name="Default Changelist" comment="" />
+    <list default="true" id="1e6f691c-4db3-454b-b38b-e72433441032" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -10,8 +12,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../KalAcademy/KalAcademy.iml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://D:/KalAcademy/KalAcademy.iml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
@@ -34,11 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/CalendarController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8415">
-              <caret line="554" column="7" selection-start-line="554" selection-start-column="7" selection-end-line="554" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="884">
+              <caret line="56" column="45" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -52,17 +51,17 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/util/DBConnection.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="255">
+              <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextInputControl.class">
+        <entry file="jar://D:/../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextInputControl.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="3315">
               <caret line="267" selection-start-line="267" selection-end-line="267" />
@@ -74,7 +73,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextField.class">
+        <entry file="jar://D:/../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextField.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2788">
               <caret line="230" selection-start-line="230" selection-end-line="230" />
@@ -120,26 +119,29 @@
       <find>getConnection</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/controller/LoginScreenController.java" />
+        <option value="$PROJECT_DIR$/src/util/DBConnection.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="130" />
-    <option name="y" value="47" />
-    <option name="width" value="1612" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1874" />
+    <option name="height" value="1096" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +200,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -206,7 +210,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550612356698" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../InventoryMngtProject/DataMngtProjectSubmitted" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -226,7 +230,7 @@
   </component>
   <component name="RunManager">
     <configuration name="CalendarApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Java/jdk-11.0.2" />
+      <option name="ALTERNATIVE_JRE_PATH" value="D:/../Java/jdk-11.0.2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="MainApp.CalendarApp" />
       <module name="CalendarApp" />
@@ -261,9 +265,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="47" width="1612" height="876" extended-state="0" />
+    <frame x="-1770" y="148" width="1612" height="876" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25064433" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26030928" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -273,7 +278,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.21265142" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.21265142" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3136033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../KalAcademy/KalAcademy.iml">
+    <entry file="file://D:/KalAcademy/KalAcademy.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
@@ -337,11 +342,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/controller/CalendarController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8415">
-          <caret line="554" column="7" selection-start-line="554" selection-start-column="7" selection-end-line="554" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="884">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -352,14 +354,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/DBConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextInputControl.class">
+    <entry file="jar://D:/../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextInputControl.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3315">
           <caret line="267" selection-start-line="267" selection-end-line="267" />
@@ -369,7 +364,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextField.class">
+    <entry file="jar://D:/../Java/javafx-sdk-11.0.2/lib/javafx.controls.jar!/javafx/scene/control/TextField.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2788">
           <caret line="230" selection-start-line="230" selection-end-line="230" />
@@ -397,6 +392,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="26" column="1" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/DBConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
         </state>
       </provider>
     </entry>
