@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e6f691c-4db3-454b-b38b-e72433441032" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/CalendarApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CalendarApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_all.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_all.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_graphics.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_graphics.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_sdk.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_sdk.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/javafx_swing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/javafx_swing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,10 +109,10 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1874" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="105" />
+    <option name="y" value="48" />
+    <option name="width" value="1413" />
     <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -250,9 +245,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23318633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23318633" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,7 +256,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49944875" visible="true" weight="0.16303219" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49944875" weight="0.16303219" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3136033" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
