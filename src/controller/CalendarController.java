@@ -10,10 +10,7 @@ import model.TabCalendarMonth;
 import model.TabCalendarWeek;
 
 import java.net.URL;
-import java.sql.Connection;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
+import java.sql.*;
 import java.time.Duration;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -434,17 +431,19 @@ public class CalendarController implements Initializable {
         }
         return itemID;
     }
-    public static void addItemToSQL(String sqlInsertQuery) throws SQLException{
+    //stmt = conn.createStatement();
+    //stmt.executeUpdate(sqlInsertQuery);
+
+    public static void addItemToSQL(String sqlInsertQuery){
         System.out.println("Running a SQL statement to add/delete an entry");
         Connection conn = getConnection();  
         Statement stmt = null;
         ResultSet rs = null;        
          
         try{
-            //get connection
             conn = getConnection();
-            stmt = conn.createStatement();
-            stmt.executeUpdate(sqlInsertQuery);            
+            PreparedStatement prepStatement = conn.prepareStatement(sqlInsertQuery);
+            prepStatement.executeUpdate();
         }
         catch (SQLException ex){
             System.out.println("There was a problem with the addItemToSQL");
@@ -452,10 +451,12 @@ public class CalendarController implements Initializable {
         }
         finally{
             try { if (conn != null) conn.close(); } catch (SQLException e) {System.out.println(e.getMessage());}
-            try { if (rs != null) rs.close(); } catch (Exception e) {System.out.println(e.getMessage());};
-            try { if (stmt != null) stmt.close(); } catch (Exception e) {System.out.println(e.getMessage());};
+            try { if (rs != null) rs.close(); } catch (Exception e) {System.out.println(e.getMessage());}
+            try { if (stmt != null) stmt.close(); } catch (Exception e) {System.out.println(e.getMessage());}
         }
     }
+
+
     public static void updateSQL(String sqlQuery){
         System.out.println("Running a SQL statement to update an entry");
         Connection conn = null;  

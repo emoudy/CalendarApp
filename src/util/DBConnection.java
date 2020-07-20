@@ -1,10 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package util;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -14,26 +8,32 @@ import java.sql.SQLException;
  * @author emoud
  */
 public class DBConnection {
-    //private static final String serverName = "52.206.157.109";
-    //private final String portNumber = "3306";
-    //private static final String dbName = "U03rqG";
-    private static final String user = "U03rqG";
-    private static final String driver = "com.mysql.cj.jdbc.Driver";
-    private static final String url = "jdbc:mysql://52.206.157.109/U03rqG";
-    private static final String password = "53688064726";
     
-    public static Connection getConnection() throws SQLException {
+    public static Connection getConnection() {
         Connection conn = null;
+        String driver = "com.mysql.cj.jdbc.Driver";
+        String dbName = "U03rqG";
+        String url = "jdbc:mysql://52.206.157.109/" + dbName;
+        String user = "U03rqG";
+        String password = "53688064726";
         
         try{
             Class.forName(driver);
-            conn = DriverManager.getConnection(url, user, password);    
+            conn = DriverManager.getConnection(url, user, password);
+            System.out.println("Connected to database : " + dbName);
         }
-        catch (ClassNotFoundException | SQLException e){
-            System.out.println(e.getMessage());
+
+        catch (SQLException e){
+            System.out.println("SQLException: "+ e.getMessage());
+            System.out.println("SQLState: " + e.getSQLState());
+            System.out.println("VendorError: " + e.getErrorCode());
             System.exit(0);
+        } catch (ClassNotFoundException ce) {
+            ce.printStackTrace();
         }
         return conn;
     }
 }
+
+
 

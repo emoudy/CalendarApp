@@ -61,8 +61,6 @@ public class CalendarApp extends Application {
         
         LoginScreenController loginScreenController = loader.getController();
         loginScreenController.setMainApp(this);
-        
-
     }
     
     public void mainScreen() throws IOException{

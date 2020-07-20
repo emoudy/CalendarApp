@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="javafx-12">
+    <CLASSES />
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../../Java/jdk-12.0.1/bin" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

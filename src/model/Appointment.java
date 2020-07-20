@@ -42,26 +42,41 @@ public class Appointment {
         System.out.println("The RB in the Appointment.java says language = " + language);
     }
     
-    public static void updateAppointment(String appointmentId, String customerId, String title, String description, String location, 
-       String contact, String url, String start, String end, String lastUpdateBy, String type) throws SQLException {
+    public static void updateAppointment(
+            String appointmentId, String customerId, String title, String description,
+            String location, String contact, String url, String start, String end,
+            String lastUpdateBy, String type) {
        int apptId = Integer.parseInt(appointmentId);
        int custID = Integer.parseInt(customerId);
        
        String sqlInsert = 
             "UPDATE U03rqG.appointment " +
-            "SET customerId = " + custID + ", title = '" + title + "', description = '" + description + "', location = '" + location +"', contact = '" + contact + "', url = '" + url + "', start = '" + start + "', end = '" + end + "', lastUpdateBy ='" + lastUpdateBy + "', type = '" + type + "'" +
+            "SET customerId = " + custID +
+                    ", title = '" + title +
+                    "', description = '" + description +
+                    "', location = '" + location +
+                    "', contact = '" + contact +
+                    "', url = '" + url +
+                    "', start = '" + start +
+                    "', end = '" + end +
+                    "', lastUpdateBy ='" + lastUpdateBy +
+                    "', type = '" + type + "'" +
             "WHERE appointmentId = "+ apptId +";";
        CalendarController.addItemToSQL(sqlInsert);
    }
    
-    public static void createAppointment(String customerId, String title, String description, String location, String contact, String url, String start, 
-        String end, String createDate, String createdBy, String lastUpdateBy, String type) throws SQLException {
-        System.out.println("I printed~!");
+    public static void createAppointment(
+            String customerId, String title, String description, String location, String contact,
+            String url, String start, String end, String createDate, String createdBy,
+            String lastUpdateBy, String type) {
        
        String sqlInsert = 
-            "INSERT INTO U03rqG.appointment (customerId, title, description, location, contact, url, start, end, createDate, createdBy, lastUpdateBy, type)" + 
-            "VALUES ('" + customerId + "', '" + title + "', '" + description + "', '" + location + "', '" + contact + "', '" + url + "', '" +
-                 start + "', '" + end + "', '"+ createDate + "', '" + createdBy + "', '" + lastUpdateBy + "', '" + type + "');";
+            "INSERT INTO U03rqG.appointment (customerId, title, description, location, contact, url, " +
+                    "start, end, createDate, createdBy, lastUpdateBy, type)" +
+            "VALUES ('" + customerId + "', '" + title + "', '" + description + "', '" + location +
+                    "', '" + contact + "', '" + url + "', '" +
+                 start + "', '" + end + "', '"+ createDate + "', '" + createdBy + "', '" +
+                    lastUpdateBy + "', '" + type + "');";
        CalendarController.addItemToSQL(sqlInsert);
    }
    

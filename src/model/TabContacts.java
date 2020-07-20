@@ -242,19 +242,18 @@ public class TabContacts {
         String cityID =  CalendarController.getItemID(getCityId, title);
         return cityID;
     }
-    public static String getAddressID(String address, String address2, String cityId, String zipCode, String phone) throws SQLException{
+    public static String getAddressID(String address, String address2, String cityId, String zipCode, String phone) throws SQLException {
         String title = "addressId";
-        
-        String getAddressId = 
-            "SELECT address.addressId FROM U03rqG.address " + 
-            "WHERE (address.address = '" +  address + "' " + 
-                "AND address.address2 = '" +  address2 + "' " +
-                "AND address.cityId = '" +  cityId + "' " + 
-                "AND address.postalCode = '" + zipCode + "' " +
-                "AND address.phone = '" + phone + "');";
-            
-        String addressID =  CalendarController.getItemID(getAddressId, title);
+
+        String getAddressId =
+                "SELECT address.addressId FROM U03rqG.address " +
+                        "WHERE (address.address = '" + address + "' " +
+                        "AND address.address2 = '" + address2 + "' " +
+                        "AND address.cityId = '" + cityId + "' " +
+                        "AND address.postalCode = '" + zipCode + "' " +
+                        "AND address.phone = '" + phone + "');";
+
+        String addressID = CalendarController.getItemID(getAddressId, title);
         return addressID;
     }
-    
 }
